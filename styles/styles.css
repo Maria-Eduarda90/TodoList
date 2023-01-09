@@ -3,3 +3,75 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #f1eeee;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.add-todo {
+    display: flex;
+}
+
+.btn-submit {
+    background-color: #ffffff;
+    width: 10%;
+    border: 1px solid pink;
+}
+
+.createdTodo {
+    padding: 0.8rem 1rem;
+    width: 30rem;
+    border: 1px solid pink;
+    outline: none;
+    font-size: 1rem;
+}
+
+.teste {
+    margin-top: 2rem;
+}
+
+.container {
+    width: 30rem;
+    box-shadow: 0 0 10px pink;
+    padding: 1rem;
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+}
+
+.done {
+    background-color: #e4d1de;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    margin-left: 1rem;
+    /* text-decoration: line-through; */
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #e70606;
+}
