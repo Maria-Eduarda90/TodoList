@@ -63,3 +63,11 @@ document.addEventListener("click", (e) => {
     parentEl.remove();
   }
 });
+
+document.addEventListener("visibilitychange", (e) => {
+    if(document.visibilityState === "visible"){
+        document.title = "Seja bem vindo! 👽"
+    } else {
+        document.title = "Ops! 😶"
+    }
+})
