@@ -44,7 +44,7 @@ form.addEventListener("submit", (e) => {
   const inputValue = todoInput.value;
 
   if (!inputValue) {
-    alert("Voçê precisa adicionar uma tarefa");
+    alert("Você precisa adicionar uma tarefa");
   }
   if (inputValue) {
     saveTodo(inputValue);
