@@ -25,10 +25,7 @@ const saveTodo = (text) => {
 
   const btn = document.createElement("button");
   btn.classList.add("remove-todo");
-  var img = document.createElement("img");
-  img.src = "/images/trash-48.svg";
-  img.alt = "remove todo";
-  btn.appendChild(img);
+  btn.innerText = "x";
   todo.appendChild(btn);
 
   container.appendChild(todo);
