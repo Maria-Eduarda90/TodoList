@@ -31,8 +31,6 @@ const saveTodo = (text) => {
   container.appendChild(todo);
 
   todoInput.value = "";
-
-  console.log(todo);
 };
 
 form.addEventListener("submit", (e) => {
